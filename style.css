@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(207, 188, 188);
+}
+
+#rabbitGame{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  padding: 10px;
+  flex-direction: column;
+  vertical-align: middle;
+  background-color: rgb(156, 136, 136);
+  border-radius: 10px;
+}
+
+#board {
+  width: auto;
+  height: auto;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#buttons{
+padding: 15px;
+display: block;
+margin: 5px;
+}
+
+button{
+  height: 30px;
+  width: 50px;
+  border: none;
+  padding: 2px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(173, 153, 153);
+  color: #fff;
+}
+button:hover {
+  background: #fff;
+  color: rgb(173, 153, 153);
+}
+
+.rabbit {
+  background-image: url(img/rabbit.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.wolf{
+  background-image: url(img/wolf.png);
+  background-repeat: no-repeat;
+  background-size:cover; 
+}
+
+.fence{
+  background-image: url(img/fence.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.fence.wall{
+  background-image: url(img/wall.png);
+}
+.home{
+  background-image: url(img/home.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+tr, td {
+  height: 50px;
+  width: 50px;
+  border:1px solid rgb(95, 96, 100);
+  border-radius: 5px;
+}
+td{
+    background-color: rgb(173, 153, 153);
+}
+
+.modal{
+  background-color: #37333da3;
+  border-radius: 50px;
+  border: 3px solid rgb(207 188 188);
+  margin: auto;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 22px;
+  font-family: monospace;
+  text-transform: capitalize;
+  display:none; 
+  position: fixed;
+  width: 100%; 
+
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.close {
+  float: right;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color:#d3d3d32b;
+}
+  
+.close:hover {background: #bbb;}
+

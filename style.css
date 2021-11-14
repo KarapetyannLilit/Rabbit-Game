@@ -65,8 +65,10 @@ button:hover {
   background-size: cover; 
 }
 
-.fence.wall{
-  background-image: url(img/wall.png);
+.stone{
+  background-image: url(img/stone.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 .home{
   background-image: url(img/home.png);
